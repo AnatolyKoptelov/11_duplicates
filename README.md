@@ -8,7 +8,16 @@ Give a directory path  by positional argument and get list of duplicated files, 
 Example of script launch on Linux, Python 3.*:
 
 ```
-python duplicates.py path
+python duplicates.py /tmp/for_duplicates_test
+```
+Output:
+```
+File name: 2.txt         File size: 265833
+        /tmp/for_duplicates_test/2.txt
+        /tmp/for_duplicates_test/4/2/2.txt
+File name: 1.txt         File size: 266461
+        /tmp/for_duplicates_test/1.txt
+        /tmp/for_duplicates_test/2/1.txt
 
 ```
 
